@@ -1,0 +1,123 @@
+.container .card a {
+  text-decoration: none;
+  background: white;
+  padding: 10px 30px;
+  border-radius: 25px;
+  border: 2px solid white;
+  font-family: "Poppins";
+  transition: 0.5s;
+  font-size: 1.1rem;
+}
+.container .card a:hover {
+  color: white;
+  background-color: transparent;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+}
+@media (max-width: 1550px) {
+  .container {
+    width: 85%;
+  }
+}
+@media (max-width: 1250px) {
+  .container {
+    width: 95%;
+  }
+}
+@media (max-width: 1000px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}
+.container .sedans {
+  background-color: #E28525;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+@media (max-width: 1000px) {
+  .container .sedans {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+  }
+}
+.container .suvs {
+  background-color: #006A71;
+}
+.container .luxury {
+  background-color: #00403F;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+@media (max-width: 1000px) {
+  .container .luxury {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 0px;
+  }
+}
+.container .btn-sedan {
+  color: #E28525;
+}
+.container .btn-suv {
+  color: #006A71;
+}
+.container .btn-luxury {
+  color: #00403F;
+}
+.container .card {
+  width: 30%;
+  padding: 50px;
+}
+@media (max-width: 1000px) {
+  .container .card {
+    width: 90%;
+  }
+}
+.container .card h1 {
+  font-family: "Fjalla One", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  margin: 30px 0 50px 0;
+  font-size: 2.5rem;
+}
+@media (max-width: 1000px) {
+  .container .card h1 {
+    margin: 30px 0 20px 0;
+  }
+}
+.container .card p {
+  font-family: "Poppins", sans-serif;
+  color: rgba(255, 255, 255, 0.6156862745);
+  width: 90%;
+  margin-bottom: 100px;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+@media (max-width: 1000px) {
+  .container .card p {
+    margin-bottom: 4rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

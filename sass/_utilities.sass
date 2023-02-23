@@ -1,0 +1,42 @@
+//Mixins
+
+@mixin reset
+  *
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+// Placeholder Selectors
+
+%button-format
+  text-decoration: none
+  background: white
+  padding: 10px 30px
+  border-radius:  25px
+  border: 2px solid white
+  font-family: 'Poppins'
+  transition: .5s
+  font-size: 1.1rem
+
+  &:hover
+    color: white
+    background-color: transparent
+
+
+//Mobile
+
+@mixin responsive-xl
+  @media (max-width:1550px)
+    @content
+
+@mixin responsive-l
+  @media (max-width:1250px)
+    @content
+
+@mixin responsive-m
+  @media (max-width:1000px)
+    @content
+
+@mixin responsive-sm
+  @media (max-width:500px)
+    @content
