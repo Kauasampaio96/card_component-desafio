@@ -15,7 +15,7 @@
 
 <h2>🚀 Tecnologias Utilizadas</h2>
 <div align="left">
-  <img src="https://skillicons.dev/icons?i=html,css,sass,javascript,vscode,figma"></img>
+  <img src="https://skillicons.dev/icons?i=html,css,sass,vscode"></img>
 </div>
 
 
